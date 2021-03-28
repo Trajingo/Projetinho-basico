@@ -108,5 +108,4 @@ async def on_message(message):
     if msg.startswith('$evolution'):
         pass
 
-
 client.run(os.getenv("DISCORD_TOKEN"))
