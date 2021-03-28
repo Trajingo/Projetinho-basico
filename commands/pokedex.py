@@ -1,6 +1,5 @@
 def run(pokemon):
     import requests
-<<<<<<< HEAD
 
     rqt = requests.get(f'https://pokeapi.co/api/v2/pokemon/{pokemon}')
     data = { "status_code": requests.codes.not_found }
